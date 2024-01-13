@@ -1,1 +1,44 @@
 /* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+
+}
+
+.header {
+    background-color: green;
+    height: 50px;
+}
+
+#main {
+    display: flex;
+}
+
+#main div {
+    -ms-flex: 1;
+    /* IE 10 */
+    flex: 1;
+}
+
+.nav,
+.content,
+.advert {
+    background-color: orange;
+    border: solid white;
+    height: 500px;
+}
+
+.footer {
+    background-color: yellow;
+    height: 50px;
+}
